@@ -1,5 +1,4 @@
 window.onload = function () {
-  console.log("f");
   const projectsContainer = document.querySelector("#projects .container");
   projectsContainer.innerHTML = projects
     .map(
@@ -28,4 +27,10 @@ window.onload = function () {
     )
     .join("");
 };
-console.log("hello");
+
+document.addEventListener("scroll", (e) => {
+  const backToTop = document.querySelector(".back-top");
+  if (window.pageYOffset > 0) {
+    backToTop.classList.add("visible");
+  } else backToTop.classList.remove("visible");
+});
