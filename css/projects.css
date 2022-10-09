@@ -1,0 +1,63 @@
+#projects .container {
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#projects h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+#projects a {
+  all: unset;
+  cursor: pointer;
+}
+#projects h3 {
+  font-weight: 700;
+  color: var(--c-font);
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+#projects .link {
+  text-decoration: underline;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#projects .container .card {
+  min-height: 200px;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid var(--c-font);
+  border-radius: 25px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+#projects .container .card:hover {
+  border-color: var(--c-accent);
+  box-shadow: 0 0 15px rgba(75, 140, 102, 0.8);
+}
+#projects .container .card .desc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#projects .container .card .desc .repo {
+  height: 20px;
+}
+#projects .container .card .bottom {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  margin: 1rem 0;
+}
+#projects .container .card .bottom .lang-color {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  background: yellow;
+}
