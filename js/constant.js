@@ -9,7 +9,9 @@ const projects = [
   {
     name: "Pizza Web App",
     sourcecode: "https://github.com/mart-anthony-stark/pizza-orders-api",
-    description: "",
+    link: "https://mart-pizza-web.herokuapp.com",
+    description:
+      "Pizza ordering web app with google authentication using node.js",
     lang: "Javascript",
   },
   {
@@ -17,7 +19,7 @@ const projects = [
     link: "https://expice-resto.netlify.app",
     sourcecode:
       "https://github.com/mart-anthony-stark/Expice-Restaurant-Vue-FE",
-    description: "",
+    description: "A Restaurant landing page made with Vue.js",
     lang: "Vue",
   },
   {
