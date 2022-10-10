@@ -1,0 +1,11 @@
+#about {
+  padding: 3rem 1rem;
+  background: var(--c-accent);
+  color: var(--c-bg);
+  border-radius: 5px;
+}
+#about p {
+  max-width: 500px;
+  text-align: justify;
+  margin: auto;
+}
